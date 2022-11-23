@@ -1,0 +1,12 @@
+name: Jumpboost
+version: '${project.version}'
+main: com.github.kumo0621.jumpboost.Jumpboost
+api-version: 1.16
+commands:
+  jump:
+    aliases: jump
+    permission: jump
+
+permissions:
+  jump:
+    default: op
